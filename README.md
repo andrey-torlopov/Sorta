@@ -29,7 +29,8 @@ operation. macOS-owned dialog controls and system-provided menu entries follow
 the macOS language.
 
 The developer section is available in Settings and About Sorta. It includes
-[Boosty](https://boosty.to/andreytorlopov), support contact information and the
+[Boosty](https://boosty.to/andreytorlopov), support contact information,
+[Sorta source code](https://github.com/andrey-torlopov/Sorta) and the
 [PhotoSorterCLI repository](https://github.com/andrey-torlopov/PhotoSorterCLI).
 The CLI uses the same photo-processing engine through macOS Terminal. It is a
 separate application; installing it is not required to use Sorta.
@@ -63,6 +64,7 @@ Sorta — приложение для macOS: сортировка фотогра
 обработка от этого не перезапускается. Системные элементы диалогов и меню могут
 оставаться на языке macOS.
 
-В настройках и окне «О программе» есть информация об авторе, Boosty и ссылка на
-PhotoSorterCLI. Консольная версия использует то же ядро обработки через Терминал
+В настройках и окне «О программе» есть информация об авторе, Boosty, ссылки на
+[исходники Sorta](https://github.com/andrey-torlopov/Sorta) и PhotoSorterCLI.
+Консольная версия использует то же ядро обработки через Терминал
 macOS и устанавливается отдельно. Для работы Sorta она не нужна.

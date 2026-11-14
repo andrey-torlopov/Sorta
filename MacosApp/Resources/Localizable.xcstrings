@@ -2618,6 +2618,23 @@
           }
         }
       }
+    },
+    "about_gui_repository" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sorta source code"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Исходный код Sorta"
+          }
+        }
+      }
     }
   },
   "version" : "1.1"

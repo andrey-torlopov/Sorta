@@ -26,13 +26,20 @@ final class AboutTests: XCTestCase {
     }
 
     func testCopyPreservesTheExactAddressAndClearsFailure() throws {
-        let link = try XCTUnwrap(AboutConfiguration.developerLinks.first(where: { $0.id == "repository" }))
-        let action = AboutLinkAction()
-        action.open(link) { _, callback in callback(false) }
-        var copied: String?
-        action.copy(link) { copied = $0 }
-        XCTAssertEqual(copied, "https://github.com/andrey-torlopov/PhotoSorterCLI")
-        XCTAssertNil(action.failedLink)
+        let links = AboutConfiguration.developerLinks
+        XCTAssertEqual(Set(links.map(\.id)).count, links.count, "GUI and CLI links need distinct identities")
+        for (id, address) in [
+            ("gui_repository", "https://github.com/andrey-torlopov/Sorta"),
+            ("repository", "https://github.com/andrey-torlopov/PhotoSorterCLI")
+        ] {
+            let link = try XCTUnwrap(links.first(where: { $0.id == id }))
+            let action = AboutLinkAction()
+            action.open(link) { _, callback in callback(false) }
+            var copied: String?
+            action.copy(link) { copied = $0 }
+            XCTAssertEqual(copied, address)
+            XCTAssertNil(action.failedLink)
+        }
     }
 
     func testAvatarIsIncludedInTheApplicationBundle() {
