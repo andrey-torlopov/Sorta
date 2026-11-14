@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>Sorta</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.photography</string>
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>Sorta needs access to the Desktop folders you select to process and save your photos.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>Sorta needs access to the Documents folders you select to process and save your photos.</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>Sorta needs access to the Downloads folders you select to process and save your photos.</string>
+</dict>
+</plist>

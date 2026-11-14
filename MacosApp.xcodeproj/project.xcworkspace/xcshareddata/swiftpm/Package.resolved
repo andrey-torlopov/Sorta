@@ -1,0 +1,15 @@
+{
+  "originHash" : "c083b8d627589e6067692594d589cad38396379b98d40f6ca1a10fd76fce4353",
+  "pins" : [
+    {
+      "identity" : "photosortercore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/andrey-torlopov/PhotoSorterCore.git",
+      "state" : {
+        "revision" : "6b97352c15a956d633493bee955037d73757a304",
+        "version" : "0.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}

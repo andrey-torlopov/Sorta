@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E480F5EC2FDDD366008D4E3C /* PhotoSorterCore in Frameworks */ = {isa = PBXBuildFile; productRef = E480F5EB2FDDD366008D4E3C /* PhotoSorterCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4C2257C2D28F6DE004D1830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4C225622D28F6DD004D1830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4C225692D28F6DD004D1830;
+			remoteInfo = MacosApp;
+		};
+		E4C225862D28F6DE004D1830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4C225622D28F6DD004D1830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4C225692D28F6DD004D1830;
+			remoteInfo = MacosApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4C2256A2D28F6DD004D1830 /* Sorta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sorta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4C2257B2D28F6DE004D1830 /* MacosAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacosAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4C225852D28F6DE004D1830 /* MacosAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacosAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E4F486E62D2E86DB009CC301 /* Exceptions for "MacosApp" folder in "MacosApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E4C225692D28F6DD004D1830 /* MacosApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E4C2256C2D28F6DD004D1830 /* MacosApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E4F486E62D2E86DB009CC301 /* Exceptions for "MacosApp" folder in "MacosApp" target */,
+			);
+			path = MacosApp;
+			sourceTree = "<group>";
+		};
+		E4C2257E2D28F6DE004D1830 /* MacosAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MacosAppTests;
+			sourceTree = "<group>";
+		};
+		E4C225882D28F6DE004D1830 /* MacosAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MacosAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4C225672D28F6DD004D1830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E480F5EC2FDDD366008D4E3C /* PhotoSorterCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C225782D28F6DE004D1830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C225822D28F6DE004D1830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4C225612D28F6DD004D1830 = {
+			isa = PBXGroup;
+			children = (
+				E4C2256C2D28F6DD004D1830 /* MacosApp */,
+				E4C2257E2D28F6DE004D1830 /* MacosAppTests */,
+				E4C225882D28F6DE004D1830 /* MacosAppUITests */,
+				E4C2256B2D28F6DD004D1830 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4C2256B2D28F6DD004D1830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4C2256A2D28F6DD004D1830 /* Sorta.app */,
+				E4C2257B2D28F6DE004D1830 /* MacosAppTests.xctest */,
+				E4C225852D28F6DE004D1830 /* MacosAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4C225692D28F6DD004D1830 /* MacosApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4C2258F2D28F6DE004D1830 /* Build configuration list for PBXNativeTarget "MacosApp" */;
+			buildPhases = (
+				E4C225662D28F6DD004D1830 /* Sources */,
+				E4C225672D28F6DD004D1830 /* Frameworks */,
+				E4C225682D28F6DD004D1830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E4C2256C2D28F6DD004D1830 /* MacosApp */,
+			);
+			name = MacosApp;
+			packageProductDependencies = (
+				E480F5EB2FDDD366008D4E3C /* PhotoSorterCore */,
+			);
+			productName = MacosApp;
+			productReference = E4C2256A2D28F6DD004D1830 /* Sorta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4C2257A2D28F6DE004D1830 /* MacosAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4C225922D28F6DE004D1830 /* Build configuration list for PBXNativeTarget "MacosAppTests" */;
+			buildPhases = (
+				E4C225772D28F6DE004D1830 /* Sources */,
+				E4C225782D28F6DE004D1830 /* Frameworks */,
+				E4C225792D28F6DE004D1830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4C2257D2D28F6DE004D1830 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E4C2257E2D28F6DE004D1830 /* MacosAppTests */,
+			);
+			name = MacosAppTests;
+			packageProductDependencies = (
+			);
+			productName = MacosAppTests;
+			productReference = E4C2257B2D28F6DE004D1830 /* MacosAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4C225842D28F6DE004D1830 /* MacosAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4C225952D28F6DE004D1830 /* Build configuration list for PBXNativeTarget "MacosAppUITests" */;
+			buildPhases = (
+				E4C225812D28F6DE004D1830 /* Sources */,
+				E4C225822D28F6DE004D1830 /* Frameworks */,
+				E4C225832D28F6DE004D1830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4C225872D28F6DE004D1830 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E4C225882D28F6DE004D1830 /* MacosAppUITests */,
+			);
+			name = MacosAppUITests;
+			packageProductDependencies = (
+			);
+			productName = MacosAppUITests;
+			productReference = E4C225852D28F6DE004D1830 /* MacosAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4C225622D28F6DD004D1830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					E4C225692D28F6DD004D1830 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E4C2257A2D28F6DE004D1830 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E4C225692D28F6DD004D1830;
+					};
+				};
+			};
+			buildConfigurationList = E4C225652D28F6DD004D1830 /* Build configuration list for PBXProject "MacosApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ru,
+			);
+			mainGroup = E4C225612D28F6DD004D1830;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E480F5EA2FDDD365008D4E3C /* XCRemoteSwiftPackageReference "PhotoSorterCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E4C2256B2D28F6DD004D1830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4C225842D28F6DE004D1830 /* MacosAppUITests */,
+				E4C225692D28F6DD004D1830 /* MacosApp */,
+				E4C2257A2D28F6DE004D1830 /* MacosAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4C225682D28F6DD004D1830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C225792D28F6DE004D1830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C225832D28F6DE004D1830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4C225662D28F6DD004D1830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C225772D28F6DE004D1830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C225812D28F6DE004D1830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4C2257D2D28F6DE004D1830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4C225692D28F6DD004D1830 /* MacosApp */;
+			targetProxy = E4C2257C2D28F6DE004D1830 /* PBXContainerItemProxy */;
+		};
+		E4C225872D28F6DE004D1830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4C225692D28F6DD004D1830 /* MacosApp */;
+			targetProxy = E4C225862D28F6DE004D1830 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4C2258D2D28F6DE004D1830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4C2258E2D28F6DE004D1830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		E4C225902D28F6DE004D1830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacosApp/MacosApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"MacosApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 79798GRSHW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MacosApp/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Andrey Torlopov";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.torlopov.sorta.macos;
+				PRODUCT_MODULE_NAME = MacosApp;
+				PRODUCT_NAME = Sorta;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		E4C225912D28F6DE004D1830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacosApp/MacosApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"MacosApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 79798GRSHW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MacosApp/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Andrey Torlopov";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.torlopov.sorta.macos;
+				PRODUCT_MODULE_NAME = MacosApp;
+				PRODUCT_NAME = Sorta;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		E4C225932D28F6DE004D1830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 79798GRSHW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.torlopov.sorta.macos.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sorta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sorta";
+			};
+			name = Debug;
+		};
+		E4C225942D28F6DE004D1830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 79798GRSHW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.torlopov.sorta.macos.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sorta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sorta";
+			};
+			name = Release;
+		};
+		E4C225962D28F6DE004D1830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79798GRSHW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.torlopov.sorta.macos.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TEST_TARGET_NAME = MacosApp;
+			};
+			name = Debug;
+		};
+		E4C225972D28F6DE004D1830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79798GRSHW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.torlopov.sorta.macos.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TEST_TARGET_NAME = MacosApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4C225652D28F6DD004D1830 /* Build configuration list for PBXProject "MacosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4C2258D2D28F6DE004D1830 /* Debug */,
+				E4C2258E2D28F6DE004D1830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4C2258F2D28F6DE004D1830 /* Build configuration list for PBXNativeTarget "MacosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4C225902D28F6DE004D1830 /* Debug */,
+				E4C225912D28F6DE004D1830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4C225922D28F6DE004D1830 /* Build configuration list for PBXNativeTarget "MacosAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4C225932D28F6DE004D1830 /* Debug */,
+				E4C225942D28F6DE004D1830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4C225952D28F6DE004D1830 /* Build configuration list for PBXNativeTarget "MacosAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4C225962D28F6DE004D1830 /* Debug */,
+				E4C225972D28F6DE004D1830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E480F5EA2FDDD365008D4E3C /* XCRemoteSwiftPackageReference "PhotoSorterCore" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/andrey-torlopov/PhotoSorterCore.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E480F5EB2FDDD366008D4E3C /* PhotoSorterCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E480F5EA2FDDD365008D4E3C /* XCRemoteSwiftPackageReference "PhotoSorterCore" */;
+			productName = PhotoSorterCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E4C225622D28F6DD004D1830 /* Project object */;
+}

@@ -1,0 +1,37 @@
+{
+  "ru": {
+    "important_text": "Фотографии – это одно из самых ценных, что у вас есть.\n\nПеред тем как обрабатывать весь массив фотографий, попробуйте это на небольшой выборке. Скопируйте несколько разных фото (HEIC/DNG, JPG) в отдельную папку и посмотрите на результат. Сравните с оригиналом, и если вас всё устраивает – применяйте к основной папке.",
+    
+    "preface_text": "Почему я написал это приложение и какую проблему оно решает?\n\nУ меня на разных носителях скопилась огромная коллекция фотографий. Если для поиска дубликатов есть много приложений, то для удобной сортировки – почти ничего. В результате у меня накопились сотни папок и файлов, разбросанных по разным датам, с разными именами. Сортировать вручную было очень трудоёмко. Сначала я написал скрипт на Python для проверки идеи. Он работал, но поддерживать код было сложно. Поэтому я написал полноценное приложение на Swift под macOS.",
+    
+    "problems_text": "Многие приложения хранят фото в своём формате и базе данных.\n\n✅ Плюсы:\n- Все фотографии в одном месте\n- Есть функции создания слайдов, видео\n- Автоматическая категоризация фотографий\n\n❌ Минусы:\n- Фото могут быть переконвертированы в формат хуже оригинала\n- При экспорте могут потеряться метаданные и снизиться качество\n- Приложение может перестать поддерживаться после обновления ОС",
+    
+    "metadata_text": "При копировании, перемещении или экспорте ОС может обновить дату создания файла, и тогда информация о дате съёмки будет утеряна.\n\n📷 Метаданные изображения содержат несколько дат:\n- Дата создания файла\n- Дата съёмки фото\n- Дата изменения\n\n🛠 Что делает приложение:\n- Выбирает самую раннюю дату, исключая некорректные (01.01.1970)\n- Переименовывает файлы в формате ГГГГ-ММ-ДД--ЧЧ-ММ, чтобы даже без метаданных было понятно, когда сделано фото",
+    
+    "how_to_use_text": "Позволяет перевести файлы из одного формата в другой.",
+    
+    "converter_text": "Конвертер преобразует DNG в HEIC со сжатием с потерями. Размер файла, качество и доступные метаданные могут измениться; HEIC не заменяет исходный RAW для дальнейшей обработки.\n\n⚠️ Важно: Сначала обработайте небольшой набор копий, оставьте удаление оригиналов выключенным и сравните результат с исходниками. Обрабатывайте весь архив только после проверки.",
+    
+    "sorting_text": "Переименование по дате и времени (рекомендуется). Исправляются метаданные. Все даты устанавливаются в одном формате (дата создания фото):\n\nАлгоритм работает просто: смотрим все даты и берём минимальную. Как правило, это самое корректное значение. Создаётся структура в формате Photos/Год/Месяц или Videos/Год/Месяц.",
+    
+    "qa_text": "Приложение автоматически добавит индекс к имени файла. Например, если три фото сняты в одну минуту, файлы будут выглядеть так:\n\n2025-01-02--12-13.jpg\n2025-01-02--12-13_1.jpg\n2025-01-02--12-13_2.jpg"
+  },
+  
+  "en": {
+    "important_text": "Photos are one of the most valuable things you have.\n\nBefore processing all your photos, test it on a small selection. Copy a few different photos (HEIC/DNG, JPG) into a separate folder and check the result. Compare it with the original, and if everything looks good, apply it to your main folder.",
+    
+    "preface_text": "Why did I create this app, and what problem does it solve?\n\nI accumulated a huge collection of photos on different storage devices. While there are many apps for finding duplicates, there was almost nothing for convenient sorting. As a result, I had hundreds of folders and files scattered across different dates and names. Sorting manually was very time-consuming. At first, I wrote a Python script to test the idea. It worked, but maintaining the code was difficult. So I wrote a full-fledged macOS app in Swift.",
+    
+    "problems_text": "Many apps store photos in their proprietary formats and databases.\n\n✅ Pros:\n- All photos are in one place\n- Slideshow and video creation features\n- Automatic photo categorization\n\n❌ Cons:\n- Photos may be converted to a lower-quality format\n- Metadata and quality (resolution/size) may be lost when exporting\n- The app may stop being supported after an OS update",
+    
+    "metadata_text": "When copying, moving, or exporting files, the OS may update the file’s creation date, leading to a loss of the original date.\n\n📷 Image metadata includes several timestamps:\n- File creation date\n- Photo taken date\n- Last modified date\n\n🛠 What the app does:\n- Selects the earliest available date, ignoring invalid ones (01.01.1970)\n- Renames files in the format YYYY-MM-DD--HH-MM so the date remains recognizable even without metadata",
+    
+    "how_to_use_text": "Allows you to convert files from one format to another.",
+    
+    "converter_text": "The converter changes DNG files to HEIC using lossy compression. File size, quality, and available metadata may change; HEIC does not replace the original RAW for further editing.\n\n⚠️ Important: Start with a small set of copies, leave deletion of originals turned off, and compare the results with the sources. Process your entire archive only after checking the results.",
+    
+    "sorting_text": "Renaming by date and time (recommended). Fixes metadata. All timestamps are set in a uniform format (photo creation date):\n\nThe algorithm works simply: it checks all timestamps and selects the earliest one, which is usually the most accurate. A folder structure is created in the format Photos/Year/Month or Videos/Year/Month.",
+    
+    "qa_text": "The app automatically adds an index to the filename. For example, if three photos were taken in the same minute, the files will look like this:\n\n2025-01-02--12-13.jpg\n2025-01-02--12-13_1.jpg\n2025-01-02--12-13_2.jpg"
+  }
+}
