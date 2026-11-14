@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" role="img" aria-labelledby="title desc">
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+<title id="title">Начните с малого. Проверьте результат.</title>
+<desc id="desc">Иллюстрация: попробуйте небольшой набор копий фотографий с выключенным удалением оригиналов, проверьте результат и только затем обработайте архив с отдельной резервной копией. Копию готовит пользователь, а не Sorta автоматически.</desc>
+<rect x="1" y="1" width="1598" height="418" rx="28" fill="#EEF0F6" stroke="#D6DBEA" stroke-width="2"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="38" y="50" font-size="30" fill="#282D46" font-weight="700" >Начните с малого. Проверьте результат.</text>
+<text x="1560" y="48" font-size="13" fill="#68718E" font-weight="400" text-anchor="end" letter-spacing="1.2">КОНЦЕПТУАЛЬНАЯ ИЛЛЮСТРАЦИЯ</text>
+<g transform="translate(35 84)">
+<rect width="476" height="284" rx="25" fill="#F8F9FD" stroke="#CDD4E8"/>
+<circle cx="38" cy="41" r="16" fill="#E3E8F9"/>
+<text x="38" y="46" font-size="14" fill="#657AB7" font-weight="700" text-anchor="middle">01</text>
+<text x="68" y="49" font-size="25" fill="#303953" font-weight="700" >Небольшой набор копий</text>
+<g transform="translate(28 104) rotate(-10 48.0 58.56)">
+<g transform="scale(0.5333333333333333)">
+  <rect x="5" y="10" width="180" height="222" rx="16" fill="#090B1C" opacity=".16"/>
+  <rect width="180" height="222" rx="16" fill="#EEF0FC" stroke="#CAD3F2" stroke-width="2"/>
+  <defs><clipPath id="sample-back"><rect x="13" y="13" width="154" height="145" rx="9"/></clipPath></defs>
+  <g clip-path="url(#sample-back)">
+    <rect x="13" y="13" width="154" height="145" fill="#D9C9F3"/>
+    <circle cx="132" cy="46" r="17" fill="#F8DBAF"/>
+    <path d="M-5 134L54 61L94 108L126 80L188 149V175H-5Z" fill="#8479AE"/>
+    <path d="M-8 147Q30 105 67 132T181 114V174H-8Z" fill="#565B8B"/>
+    <path d="M-8 154Q51 135 89 149T188 139" fill="none" stroke="#C1CEF4" stroke-opacity=".38" stroke-width="3"/>
+  </g>
+  <path d="M17 181H117" stroke="#929EC5" stroke-width="5" stroke-linecap="round"/>
+  <path d="M17 197H75" stroke="#BEC7E0" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="153" cy="191" r="7" fill="#BDC9EF"/>
+</g></g><g transform="translate(72 119) rotate(9 46.5 56.73)">
+<g transform="scale(0.5166666666666667)">
+  <rect x="5" y="10" width="180" height="222" rx="16" fill="#090B1C" opacity=".16"/>
+  <rect width="180" height="222" rx="16" fill="#EEF0FC" stroke="#CAD3F2" stroke-width="2"/>
+  <defs><clipPath id="sample-front"><rect x="13" y="13" width="154" height="145" rx="9"/></clipPath></defs>
+  <g clip-path="url(#sample-front)">
+    <rect x="13" y="13" width="154" height="145" fill="#C3D4FF"/>
+    <circle cx="132" cy="46" r="17" fill="#FFF2C9"/>
+    <path d="M-5 134L54 61L94 108L126 80L188 149V175H-5Z" fill="#809ADB"/>
+    <path d="M-8 147Q30 105 67 132T181 114V174H-8Z" fill="#536EB6"/>
+    <path d="M-8 154Q51 135 89 149T188 139" fill="none" stroke="#C1CEF4" stroke-opacity=".38" stroke-width="3"/>
+  </g>
+  <path d="M17 181H117" stroke="#929EC5" stroke-width="5" stroke-linecap="round"/>
+  <path d="M17 197H75" stroke="#BEC7E0" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="153" cy="191" r="7" fill="#BDC9EF"/>
+</g></g>
+<text x="199" y="139" font-size="21" fill="#4B5674" font-weight="400" >Начните с нескольких</text>
+<text x="199" y="168" font-size="21" fill="#4B5674" font-weight="400" >фотографий.</text>
+<text x="199" y="214" font-size="18" fill="#687493" font-weight="400" >Без удаления оригиналов.</text>
+</g>
+<g transform="translate(562 84)">
+<rect width="476" height="284" rx="25" fill="#F8F9FD" stroke="#CDD4E8"/>
+<circle cx="38" cy="41" r="16" fill="#E3E8F9"/>
+<text x="38" y="46" font-size="14" fill="#657AB7" font-weight="700" text-anchor="middle">02</text>
+<text x="68" y="49" font-size="25" fill="#303953" font-weight="700" >Проверка результата</text>
+<g transform="translate(37 106) rotate(0 54.5 66.49)">
+<g transform="scale(0.6055555555555555)">
+  <rect x="5" y="10" width="180" height="222" rx="16" fill="#090B1C" opacity=".16"/>
+  <rect width="180" height="222" rx="16" fill="#EEF0FC" stroke="#CAD3F2" stroke-width="2"/>
+  <defs><clipPath id="compare-photo"><rect x="13" y="13" width="154" height="145" rx="9"/></clipPath></defs>
+  <g clip-path="url(#compare-photo)">
+    <rect x="13" y="13" width="154" height="145" fill="#C3D4FF"/>
+    <circle cx="132" cy="46" r="17" fill="#FFF2C9"/>
+    <path d="M-5 134L54 61L94 108L126 80L188 149V175H-5Z" fill="#809ADB"/>
+    <path d="M-8 147Q30 105 67 132T181 114V174H-8Z" fill="#536EB6"/>
+    <path d="M-8 154Q51 135 89 149T188 139" fill="none" stroke="#C1CEF4" stroke-opacity=".38" stroke-width="3"/>
+  </g>
+  <path d="M17 181H117" stroke="#929EC5" stroke-width="5" stroke-linecap="round"/>
+  <path d="M17 197H75" stroke="#BEC7E0" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="153" cy="191" r="7" fill="#BDC9EF"/>
+</g></g>
+<circle cx="143" cy="213" r="28" fill="#E4E9FB" stroke="#6E8BFF" stroke-width="3"/>
+<path d="M163 233L180 250" stroke="#657CBE" stroke-width="7" stroke-linecap="round"/>
+<path d="M130 213L139 222L155 203" fill="none" stroke="#526CAB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="199" y="139" font-size="21" fill="#4B5674" font-weight="400" >Сравните фото,</text>
+<text x="199" y="168" font-size="21" fill="#4B5674" font-weight="400" >даты и качество.</text>
+<text x="199" y="214" font-size="18" fill="#687493" font-weight="400" >Продолжайте только</text>
+<text x="199" y="239" font-size="18" fill="#687493" font-weight="400" >после проверки.</text>
+</g>
+<g transform="translate(1089 84)">
+<rect width="476" height="284" rx="25" fill="#F8F9FD" stroke="#CDD4E8"/>
+<circle cx="38" cy="41" r="16" fill="#E3E8F9"/>
+<text x="38" y="46" font-size="14" fill="#657AB7" font-weight="700" text-anchor="middle">03</text>
+<text x="68" y="49" font-size="25" fill="#303953" font-weight="700" >Архив + резервная копия</text>
+<g stroke-linejoin="round">
+<rect x="70" y="108" width="94" height="118" rx="15" fill="#E4E3F5" stroke="#9684C1" stroke-width="2"/>
+<path d="M91 128H143M91 140H133" stroke="#B2A4D4" stroke-width="3" stroke-linecap="round"/>
+<path d="M33 153V142Q33 132 43 132H72L85 145H140Q152 145 152 157V222Q152 234 140 234H45Q33 234 33 222Z" fill="#DDE5FF" stroke="#7188CE" stroke-width="2"/>
+<path d="M34 165H151" stroke="#9DACE0" stroke-width="2"/>
+<rect x="48" y="181" width="30" height="32" rx="5" fill="#F5F7FF" stroke="#A5B4E0"/>
+<rect x="87" y="181" width="47" height="5" rx="2" fill="#8398D0"/>
+<rect x="87" y="194" width="35" height="5" rx="2" fill="#A8B7DE"/>
+<circle cx="149" cy="234" r="22" fill="#F1EDF9" stroke="#9684C1" stroke-width="2"/>
+<path d="M140 234L147 241L159 227" fill="none" stroke="#7E6AA8" stroke-width="3" stroke-linecap="round"/>
+</g>
+<text x="199" y="139" font-size="21" fill="#4B5674" font-weight="400" >Сохраните отдельную</text>
+<text x="199" y="168" font-size="21" fill="#4B5674" font-weight="400" >копию всего архива.</text>
+<text x="199" y="214" font-size="18" fill="#687493" font-weight="400" >Затем обработайте все фото.</text>
+</g>
+<path d="M522 226h26m-10-10 10 10-10 10" fill="none" stroke="#8292BE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1049 226h26m-10-10 10 10-10 10" fill="none" stroke="#8292BE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="38" y="400" font-size="18" fill="#68718E" font-weight="400" >Сохраняйте оригиналы, пока не убедитесь в результате.</text>
+</g>
+</svg>

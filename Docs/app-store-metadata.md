@@ -95,7 +95,8 @@ folder and keep originals. DNG conversion needs a DNG fixture. Avoid deleting
 originals during evaluation. Cancellation keeps navigation locked while the active
 operation finishes stopping.
 
-The GitHub link opens the related PhotoSorterCLI repository. Boosty opens the
+Separate GitHub links open the Sorta GUI and related PhotoSorterCLI repositories.
+The CLI uses the same processing engine through macOS Terminal. Boosty opens the
 developer's external profile; no Sorta capability is unlocked through it. The
 support action opens the user's mail application. External destinations apply their
 own privacy policies. The actual Boosty content and applicable storefront rules
